@@ -1,0 +1,24 @@
+body {
+    background-color: #ff0000;
+    color: white;
+    font-family: "Noto Serif", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 100;
+}
+
+button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
